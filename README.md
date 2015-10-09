@@ -5,6 +5,8 @@ SPREE, PLEASE CONSULT THAT BRANCH'S README AND NOT THIS ONE.**
 SUMMARY
 -------
 
+[![Join the chat at https://gitter.im/derekluo/spree](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/derekluo/spree?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Spree is a complete open source e-commerce solution built with Ruby on Rails. It
 was originally developed by Sean Schofield and is now maintained by a dedicated
 [core team](https://github.com/spree/spree/wiki/Core-Team). You can find out more by
@@ -45,9 +47,9 @@ The fastest way to get started is by using the spree command line tool
 available in the spree gem which will add Spree to an existing Rails application.
 
 ```shell
-gem install rails -v 4.2.2
+gem install rails -v 4.2.0
 gem install spree
-rails _4.2.2_ new my_store
+rails _4.2.0_ new my_store
 spree install my_store
 ```
 
@@ -72,18 +74,18 @@ To select a specific branch, pass in the `--branch` option. If there is no branc
 will be given the latest version of either spree_auth_devise or spree_gateway.
 
 ```shell
-spree install my_store --branch "3-0-stable"
+spree install my_store --branch "2-4-stable"
 ```
 
 Using stable builds and bleeding edge
 -------------
 
 To use a stable build of Spree, you can manually add Spree to your
-Rails application. To use the 3-0-stable branch of Spree, add this line to
+Rails application. To use the 2-4-stable branch of Spree, add this line to
 your Gemfile.
 
 ```ruby
-gem 'spree', github: 'spree/spree', branch: '3-0-stable'
+gem 'spree', github: 'spree/spree', branch: '2-4-stable'
 ```
 
 Alternatively, if you want to use the bleeding edge version of Spree, use this
@@ -302,9 +304,9 @@ Further Documentation
 ------------
 Spree has a number of really useful guides online at [http://guides.spreecommerce.com](http://guides.spreecommerce.com).
 
-Request for Comments
+Roadmap
 ------------
-Spree feature and change request for comments can be found at [https://github.com/spree-contrib/rfcs](https://github.com/spree-contrib/rfcs).
+Spree roadmap at [https://trello.com/b/PQsUfCL0/spree-roadmap](https://trello.com/b/PQsUfCL0/spree-roadmap).
 
 Contributing
 ------------
